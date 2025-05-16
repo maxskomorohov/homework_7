@@ -1,0 +1,62 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+#*.db
+*.sqlite3
+
+# Виртуальные окружения
+venv/
+.env/
+env/
+.venv/
+
+# Конфигурационные файлы IDE
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+#*.log
+
+# Файлы для безопасности
+*.env
+
+# Папки с результатами тестов
+.coverage
+nosetests.xml
+test_*.xml
+*.cover
+
+# Зависимости
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# PostgreSQL (если используете локальные дампы базы данных)
+*.sql
+*.sql.gz
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Множество файлов, не подходящих для коммита
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Разное
+*.tar
+*.tar.gz
+*.zip
